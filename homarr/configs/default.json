@@ -14,7 +14,12 @@
       "enabled": true
     },
     "weather": {
-      "enabled": true
+      "enabled": true,
+      "options": {
+        "location": {
+          "value": "london"
+        }
+      }
     },
     "usenet": {
       "enabled": true
@@ -26,7 +31,7 @@
       "enabled": true
     },
     "docker": {
-      "enabled": false
+      "enabled": true
     },
     "overseerr": {
       "enabled": true
